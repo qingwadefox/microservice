@@ -3,8 +3,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.qingfox.microservice</groupId>
-	<artifactId>microservice-parent</artifactId>
+	<groupId>org.qingfox.microservice.springcloud</groupId>
+	<artifactId>springcloud-parent</artifactId>
 	<version>1.0</version>
 	<packaging>pom</packaging>
 	<name>microservice</name>
@@ -35,14 +35,14 @@
 	<build>
 		<pluginManagement>
 			<plugins>
-				<!-- assembly²å¼þ -->
+				<!-- assemblyï¿½ï¿½ï¿½ -->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-assembly-plugin</artifactId>
 					<version>2.4</version>
 				</plugin>
 
-				<!-- dependencyÏà¹Ø²å¼þ -->
+				<!-- dependencyï¿½ï¿½Ø²ï¿½ï¿½ -->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-dependency-plugin</artifactId>
@@ -53,7 +53,7 @@
 					<artifactId>versions-maven-plugin</artifactId>
 					<version>2.1</version>
 				</plugin>
-				<!-- resource²å¼þ -->
+				<!-- resourceï¿½ï¿½ï¿½ -->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-resources-plugin</artifactId>
