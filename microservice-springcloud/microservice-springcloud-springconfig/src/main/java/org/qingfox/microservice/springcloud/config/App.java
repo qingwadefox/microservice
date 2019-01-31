@@ -1,4 +1,4 @@
-package org.microservice.springcloud.config;
+package org.qingfox.microservice.springcloud.config;
 
 /**
  * Hello world!
