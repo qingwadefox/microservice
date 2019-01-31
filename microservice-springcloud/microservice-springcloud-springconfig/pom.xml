@@ -10,8 +10,8 @@
 		<version>1.0</version>
 	</parent>
 
-	<artifactId>microservice-springcloud-springconfig</artifactId>
-	<name>microservice-springcloud-springconfig</name>
+	<artifactId>microservice-springcloud-config</artifactId>
+	<name>microservice-springcloud-config</name>
 	<url>http://maven.apache.org</url>
 
 
@@ -30,5 +30,26 @@
 			<artifactId>framework-microservice</artifactId>
 		</dependency>
 
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-config-server</artifactId>
+		</dependency>
 	</dependencies>
 </project>

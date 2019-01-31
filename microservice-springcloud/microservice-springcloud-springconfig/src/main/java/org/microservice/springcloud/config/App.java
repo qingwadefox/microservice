@@ -1,4 +1,4 @@
-package org.microservice.springcloud.springconfig;
+package org.microservice.springcloud.config;
 
 /**
  * Hello world!
